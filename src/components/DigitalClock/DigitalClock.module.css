@@ -1,0 +1,16 @@
+.container {
+  display: grid;
+  place-items: center;
+}
+
+.time {
+  font-size: 5rem;
+  color: #fff;
+  margin: 0;
+}
+
+.greeting {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+}
