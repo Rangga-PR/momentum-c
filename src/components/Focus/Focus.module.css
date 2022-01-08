@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #fff;
+}
+
+.text {
+  color: #fff;
+  margin: 0;
+}
+
+.input {
+  position: relative;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  margin-top: 16px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  margin-right: 8px;
+  cursor: pointer;
+}

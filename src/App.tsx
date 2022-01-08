@@ -1,5 +1,6 @@
 import type { Component } from "solid-js";
 import DigitalClock from "./components/DigitalClock/DigitalClock";
+import Focus from "./components/Focus/Focus";
 import Layout from "./Layout";
 import Search from "./components/Search/Search";
 import logo from "./logo.svg";
@@ -13,6 +14,7 @@ const App: Component = () => {
       </section>
       <section class={styles.content}>
         <DigitalClock />
+        <Focus />
       </section>
       <section></section>
     </Layout>
