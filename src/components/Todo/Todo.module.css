@@ -1,0 +1,64 @@
+.container {
+  position: relative;
+}
+
+.text {
+  color: #fff;
+  cursor: pointer;
+}
+
+.card {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: fit-content;
+  max-height: 500px;
+  width: 320px;
+  background-color: #fff;
+  border-radius: 8px;
+  right: -50px;
+  bottom: 56px;
+  padding: 16px;
+}
+
+.card:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 100%;
+  right: 58px;
+  border: 12px solid transparent;
+  border-bottom: none;
+  border-top-color: #fff;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  outline: none;
+  font-size: 16px;
+}
+
+.todo {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.checkbox {
+  margin-right: 6px;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  filter: brightness(0);
+}
