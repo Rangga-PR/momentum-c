@@ -29,7 +29,9 @@ const Todo: Component = () => {
   });
 
   createEffect(() => {
-    window.localStorage.setItem("todos", JSON.stringify(todos));
+    todos?.length
+      ? window.localStorage.setItem("todos", JSON.stringify(todos))
+      : window.localStorage.removeItem("todos");
   });
 
   const onKeyUp = (e: KeyboardEvent) => {

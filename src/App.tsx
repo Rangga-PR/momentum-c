@@ -3,6 +3,7 @@ import DigitalClock from "./components/DigitalClock/DigitalClock";
 import Focus from "./components/Focus/Focus";
 import Layout from "./Layout";
 import Search from "./components/Search/Search";
+import Todo from "./components/Todo/Todo";
 import logo from "./logo.svg";
 import styles from "./App.module.css";
 
@@ -16,7 +17,9 @@ const App: Component = () => {
         <DigitalClock />
         <Focus />
       </section>
-      <section></section>
+      <section class={styles.footer}>
+        <Todo />
+      </section>
     </Layout>
   );
 };

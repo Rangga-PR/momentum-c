@@ -8,3 +8,7 @@ const headers = {
 export const getRandomImg = (size: string) => {
   return axios({ url: `${endpoint}/random/${size}`, headers });
 };
+
+export const getRandomImgUrl = (size: string) => {
+  return `${endpoint}/random/${size}`;
+};
